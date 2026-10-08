@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop 1</title>
+    <script type="module" src="./shop1.ts"></script>
+</head>
+
+<body>
+
+    <h1>By 3 items</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="row">Shopping Cart</th>
+            </tr>
+            <tr>
+                <th>Item</th>
+                <th>Unit Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>0.33</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Grapes</td>
+                <td>3.00</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Oranges</td>
+                <td>0.40</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Button</td>
+                <td>Total</td>
+                <td id="payment">--</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+    <form>
+        <label for="number1">First number:</label>
+        <input type="number" id="number1">
+
+        <br><br>
+
+        <label for="number2">Second number:</label>
+        <input type="number" id="number2">
+
+        <br><br>
+
+        <button type="button"  id="add-button">Add</button>
+
+        <br><br>
+
+        <label for="result">Result:</label>
+        <input type="number" id="result" readonly>
+    </form>
+
+</body>
+</html>
